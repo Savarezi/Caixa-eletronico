@@ -17,32 +17,13 @@ Este projeto é uma simulação simples de um **caixa eletrônico**, que entrega
 
 Se o usuário quiser sacar **R$180**, o programa irá:
 
+```
 Sacando R$ 180...
-
 1 nota(s) de R$ 100
-
 1 nota(s) de R$ 50
-
 1 nota(s) de R$ 20
-
 1 nota(s) de R$ 10
-
----
-
-✅ Saque realizado com o menor número de notas possível!
-
----
-
-## 🧠 Lógica Utilizada
-
-1. Define uma lista com os valores das notas disponíveis.
-2. Para cada nota:
-   - Verifica quantas podem ser entregues.
-   - Atualiza o valor restante do saque.
-3. Repete até que todo o valor seja "entregue".
-
----
-
+```
 
 ✅ Saque realizado com o menor número de notas possível!
 
@@ -72,14 +53,23 @@ def saca_dinheiro(valor):
 
 valor_saque = int(input("Digite o valor do saque: "))
 saca_dinheiro(valor_saque)
+```
 
+---
 
+## 🚀 O que você aprende com esse projeto?
 
+✅ Operações matemáticas básicas  
+✅ Laços de repetição  
+✅ Uso de `if` e `input()`  
+✅ Impressão formatada com `f-strings`
 
+---
 
+## 🤝 Contribuição
 
+Sinta-se à vontade para fazer melhorias, adicionar novas funcionalidades (como notas de R$2 ou R$1 💸) ou adaptar para outro cenário!  
 
+---
 
-
-
-
+## ✨ Feito com carinho por [Patrícia Oliveira](https://www.linkedin.com/in/patyoliver) 💜
